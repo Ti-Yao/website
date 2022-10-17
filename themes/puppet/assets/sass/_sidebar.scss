@@ -20,10 +20,14 @@
 // Container of Sidebar, also Friends
 .sidebar-container {
   color: $gray-light;  
-  height:100%;
+  top:0;
+  position: relative;
+  position: -webkit-sticky;
+  position: sticky;
+  
   h5 {
     color: $brand-gray;
-    padding-bottom: 0.7em;
+    padding-bottom: 0.4em;
     font-size: 20px;
     a {
       color: $brand-gray !important;
@@ -56,7 +60,7 @@
     }
     p {
       margin-top: 0px;
-      margin-bottom: 20px;
+      margin-bottom: 0px;
       height:100%;
     }
     .list-inline > li {

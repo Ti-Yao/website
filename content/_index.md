@@ -3,4 +3,4 @@ title: "Translational Cardiovascular Imaging"
 date: 2022-10-16T09:55:58+01:00
 draft: false
 ---
-We are a multi-disciplinary group of MR physicists, computer scientists, and clinicians involved in developing and validating novel methods of imaging the cardiovascular system. We are based at both Great Ormond Street and the Royal Free hospitals and with research spanning all age ranges. Our technical research is mainly related to developing rapid MR sequences based on non-Cartesian trajectories and new image reconstruction methods. We have a particular interest in spiral MRI and parallel imaging/compressed sensing, GPU based reconstructions and machine learning. Our clinical research encompassing validation of new sequences and sophisticated evaluation of cardiovascular physiology. In the past few years we have successfully implemented real-time CMR in infants without anaesthetic and are actively attempting to develop simple 5-minute CMR scans for pediatric heart disease. We also have a keen interest in exercise stress CMR and are active in developing new methodologies and protocols.
+

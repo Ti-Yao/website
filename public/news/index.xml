@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on Translational Cardiovascular Imaging</title>
+    <title>News on Translational Cardiovascular Imaging Group</title>
     <link>http://localhost:1313/news/</link>
-    <description>Recent content in News on Translational Cardiovascular Imaging</description>
+    <description>Recent content in News on Translational Cardiovascular Imaging Group</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Oct 2022 23:46:07 +0100</lastBuildDate><atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />

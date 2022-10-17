@@ -6957,3 +6957,34 @@ button.close {
   margin-right:-15px;
   margin-left:-15px
 }
+div{
+  box-sizing: border-box;
+  clear: both;}
+
+/* css for publications */
+/* .sidebar {
+  height: 100%;
+  width: 150px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 40px;
+  background-color: lightblue;
+  }
+  
+  .sidebar a {
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+  text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+  cursor: pointer;
+  opacity: .7;
+  }
+  
+  .body-text {
+  margin-left: 150px;
+  font-size: 18px;
+  } */
