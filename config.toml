@@ -1,9 +1,8 @@
 baseURL = "http://localhost:1313/"
 title = "Translational Cardiovascular Imaging Group"
-Title = "Translational Cardiovascular Imaging Group"
 
-theme = "puppet"
-themesDir = "themes"
+theme = ""
+themesDir = ""
 
 copyright = ""
 paginate = 3

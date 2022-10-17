@@ -17,13 +17,38 @@
   }
 }
 
+.container-top {
+  display: flex;
+  align-items: flex-end;
+  width: 60px;
+}
+
+.backtotop {
+  position: sticky;
+  bottom: 0px;      
+  margin-right:10px; 
+  
+  /* visual styling */
+  width:100%;
+  aspect-ratio:1;
+  background:#ff8b24;
+  border-radius:10px;
+}
+.backtotop:before {
+  content:"";
+  position:absolute;
+  inset:30%;
+  transform:translateY(20%) rotate(-45deg);
+  border-top:5px solid #fff;
+  border-right:5px solid #fff;
+}
+
 // Container of Sidebar, also Friends
 .sidebar-container {
   color: $gray-light;  
   top:0;
   position: relative;
-  position: -webkit-sticky;
-  position: sticky;
+  z-index: 2;
   
   h5 {
     color: $brand-gray;
