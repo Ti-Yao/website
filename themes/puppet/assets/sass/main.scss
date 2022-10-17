@@ -4,8 +4,11 @@
 @import "_side-catalog.scss";
 @import "_search.scss";
 @import "_highlight.scss";
-
+@import "_pubs.scss";
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 // Global Components
+
+p, h5,h4,h3,h2,h1 {font-family:Muli, sans-serif;}
 
 body {
   @include sans-serif;

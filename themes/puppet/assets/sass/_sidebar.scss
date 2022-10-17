@@ -7,21 +7,24 @@
   .post-container,
   .sidebar-container {
     padding-right: 5%;
+    height:100%;
   }
 }
 @media (min-width: 768px) {
   .post-container {
     padding-right: 5%;
+    height:100%;
   }
 }
 
 // Container of Sidebar, also Friends
 .sidebar-container {
-  color: $gray-light;
-  font-size: 14px;
+  color: $gray-light;  
+  height:100%;
   h5 {
     color: $brand-gray;
-    padding-bottom: 1em;
+    padding-bottom: 0.7em;
+    font-size: 20px;
     a {
       color: $brand-gray !important;
       text-decoration: none;
@@ -46,6 +49,7 @@
   .short-about {
     img {
       width: 80%;
+      height:100%;
       display: block;
       border-radius: 5px;
       margin-bottom: 20px;
@@ -53,9 +57,11 @@
     p {
       margin-top: 0px;
       margin-bottom: 20px;
+      height:100%;
     }
     .list-inline > li {
       padding-left: 0px;
+      height:100%;
     }
   }
 }

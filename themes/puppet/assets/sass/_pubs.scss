@@ -1,0 +1,49 @@
+@import "variables.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+// publications
+.pubs-container {
+  color: $gray-light;
+  font-size: 14px;
+  height:100%;
+
+  p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 17px;
+  }
+  .list-inline > li {
+    padding-left: 0px;
+  }
+  #authors {
+    p {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 400;
+      margin-top:10px;
+      color: $brand-gray;
+    }
+  }
+  #journal {
+    p {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 700;
+      
+      color: $brand-gray;
+    }
+  }
+
+  h4 {
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 1em;
+    font-size: 26px;
+  }
+  a {
+    &:hover,
+    &:active {
+      color: $brand-primary !important;
+    }
+  }
+  
+  
+}
